@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+
+    height: 240px;
+
+    background-color: white;
+    opacity: 0.7;
+  
+
+}
+.container1{
+    background-image: url('../images/Rectangle\ 20.png');
+    width: 1440px;
+    height: 704px;
+    margin: 0 auto;
+    h2{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+}
+.grid-container{
+
+    display: grid;
+    grid-template-columns:repeat(3, 320px);
+    grid-template-rows:repeat(2, 240px);
+    row-gap: 24px;
+    justify-content: center;
+    column-gap: 36px;
+
+    h2{
+        text-align: center;
+    }
+    
+
+}
+.img1 {
+  text-align: center;
+
+}
+.h3{
+    text-align: center;
+font-family: 'Headland One', serif;
+
+}
+.ht3{
+text-align: center;
+font-family: 'Headland One', serif;
+}
+
+/* ---------------------container------------ */
+.container{
+    position: relative;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 740px;
+    background-image: url('../images/Group\ 48\ 1.png');
+    h2{
+        position: absolute;
+          bottom: 34px;
+    right:100px;
+    font-size: 40px;
+    z-index: 1;
+    }
+}
+.social{
+    position: absolute;
+    bottom: 34px;
+    right:100px;
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+    .img2{
+        color: black
+        ;
+    }
+ 
+.nav-menu {
+  display: flex;               
+  justify-content: center;             
+  list-style: none;            
+  margin-top: 0%;          
+  gap: 40px;                  
+}
+
+
+.nav-menu a {
+  text-decoration: none;       
+  color: #ffffff;    
+     
+}
+.img10{
+    text-align: end;
+    color: ;
+}
+.p3{
+    color: #ffffff;
+position: absolute;
+  top: 320px; 
+  left: 40px; 
+  max-width: 380px;
+
+}
+.button1{
+  margin-top: 300px; 
+  margin-left: 40px; 
+  color: #26C7EA;
+  background-color: #0B0E66;
+}
+.button2{
+    position: absolute;
+  top: 150px;
+ left: 1250px;
+color: #0B0E66;
+background-color: #26C7EA;
+
+}
+.nav-menu a.active {
+  color: #26C6EA; 
+}
